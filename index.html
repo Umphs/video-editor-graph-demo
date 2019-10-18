@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Timeline Graph Demo</title>
+  <script src="svg.min.js"></script>
+  <script src="demo.min.js" type="module"></script>
+  <style>
+    svg {
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+
+    body {
+      background: #EEE;
+    }
+
+    .connections {
+      fill: none;
+      stroke: #0884;
+      stroke-width: 10;
+      stroke-linejoin: bevel;
+    }
+
+    .thumbnail .background {
+      fill: #CCC;
+      stroke: #888;
+      transform: translate(.5px, .5px);
+    }
+
+    .thumbnail .placeholder {
+      fill: #111;
+    }
+
+    .socket {
+      fill: #088;
+      cursor: crosshair;
+    }
+  </style>
+</head>
+
+</html>
